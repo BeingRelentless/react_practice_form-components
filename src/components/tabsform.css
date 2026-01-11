@@ -1,0 +1,18 @@
+.tabs-container {
+  display: flex;
+  margin: 10px;
+}
+
+.tabs {
+  padding: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.selected-tab {
+  border: 2px solid black;
+  height: 200px;
+}
+.active {
+  background-color: aquamarine;
+}
