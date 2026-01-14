@@ -1,3 +1,4 @@
+
 export default function Profile({ formData, setFormData }) {
   const handleChange = (e) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -78,3 +79,4 @@ export default function Profile({ formData, setFormData }) {
     </>
   );
 }
+
